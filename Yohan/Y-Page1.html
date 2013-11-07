@@ -3,13 +3,14 @@
 	<head>		
 		<meta charset="utf-8">
 		<title> Page personnelle - Christine Collet </title>
-		<link rel="stylesheet" type="text/css" href="home.css" />          
+		<link rel="stylesheet" type="text/css" href="Y-Page1.css" />          
 	</head> 
 
 <body> 
-	<header>
+	<header id="HautdePage">
 		<h1>Christine Collet</h1>
-        
+    <div class ="Citations">
+     
       <p>
         <i>« Nous n'avons pas besoin de certitudes mais de traces... » </i>
         <a href="http://franceweb.fr/poesie/char2.htm">René Char</a>
@@ -21,23 +22,20 @@
   leur donner des explications.» - Le Petit Prince</i>
         <a href="http://www.saint-exupery.org/">Antoine de  Saint-Exupéry</a>
       </p>
-      
+    </div>
 	</header>
 	
-	<div id="navcenter">
-	
-	<nav>
+	<nav class="Menu">
 	        <ul>
 		<li><a href="home.html"><img src="home.png" alt="Home" title="Home"/></a></li>
-		<li><a href="home.html"><img src="home.png" alt="Home" title="Home"/></a></li>
-		<li><a href="home.html"><img src="home.png" alt="Home" title="Home"/></a></li>
-		<li><a href="home.html"><img src="home.png" alt="Home" title="Home"/></a></li>
-		<li><a href="home.html"><img src="home.png" alt="Home" title="Home"/></a></li>
+		<li><a href="home.html">Enseignement</a></li>
+		<li><a href="home.html">Recherche</a></li>
+		<li><a href="home.html">Publication</a></li>
+		<li><a href="home.html">Theses</a></li>
 	        </ul>
-        </nav>
-		
-	</div>
-
+    </nav>
+    
+    <div class="Corps">
      <article>
 			<h1>Titre1</h1>
 			<p>contenu complètement random comme tout ce qu'on fait en cours
@@ -54,9 +52,10 @@ Pour éviter ce problème, il faut absolument que le conteneur soit lui-même po
 
 Exemple de conteneur prévu pour un contenu avec des éléments positionnés :</p>
 	 </article>
+    </div>
 	
     <footer>
-        <a href="">Haut de Page</a>
+        <a href=#HautdePage>Haut de Page</a>
     </footer>
 </body>
 </html>
