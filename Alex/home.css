@@ -11,7 +11,7 @@ header{
 margin-left:5%;
 display:inline-block;
 width:90%;
-height:20%;
+height:130px;
 box-shadow: 0px 0px 2px #000;
 border-bottom-right-radius:2px;
 border-bottom-left-radius:2px;
@@ -51,14 +51,7 @@ position:absolute;
 margin-bottom:0px;
 }
 
-nav{
-display:inline-block;
-margin-top:15%;
-overflow:hidden;
-z-index:1;
-width:90%;
-margin-left:0%
-}
+
 
 article{
 background: radial-gradient(ellipse at center, rgba(252,254,255,1) 0%,rgba(244,252,255,1) 73%,rgba(232,244,255,1) 100%);
@@ -79,6 +72,21 @@ text-align:center;
 }
 
 /*Menu coverflow*/
+
+nav{
+display:inline-block;
+margin-top:150px;
+overflow:hidden;
+z-index:1;
+width:90%;
+margin-left:0%
+}
+
+#navcenter{
+margin:auto;
+width:980px;
+text-align:center;
+}
 
 ul li{
 display:inline-block;
@@ -124,8 +132,3 @@ z-index:55;
 
 
 
-#navcenter{
-margin:auto;
-width:980px;
-text-align:center;
-}
